@@ -1,6 +1,9 @@
 import streamlit as st
 from datetime import datetime
 
+# Mengatur konfigurasi halaman
+st.set_page_config(page_title="Met Ultah Dedek", page_icon="🎉")
+
 # Judul aplikasi
 st.title("Selamat Ulang Tahun untuk Dedek Sayang")
 
