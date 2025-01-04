@@ -52,3 +52,8 @@ if st.button("Ini Tombol Apa Hayo"):
 
         # Menambahkan gambar pada ucapan
         st.image("IMG_0941.JPG", use_container_width =True)
+        st.image("gambar1.jpg", use_container_width =True)
+        st.image("gambar2.jpg", use_container_width =True)
+        st.image("gambar3.jpg", use_container_width =True)
+        st.image("gambar4.jpg", use_container_width =True)
+        st.image("gambar5.jpg", use_container_width =True)
