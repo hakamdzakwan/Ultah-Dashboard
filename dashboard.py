@@ -5,7 +5,7 @@ from datetime import datetime
 st.title("Selamat Ulang Tahun untuk Dedek Sayang")
 
 # Gambar latar belakang
-st.image("IMG_9528.JPG", use_column_width=True)
+st.image("IMG_9528.JPG", use_container_width =True)
 
 # Input nama pacar
 nama_pacar = st.text_input("Masukkan nama Dedek:")
@@ -48,4 +48,4 @@ if st.button("Ini Tombol Apa Hayo"):
         st.success(ucapan)
 
         # Menambahkan gambar pada ucapan
-        st.image("IMG_0941.JPG", use_column_width=True)
+        st.image("IMG_0941.JPG", use_container_width =True)
