@@ -30,7 +30,7 @@ if st.button("Ini Tombol Apa Hayo"):
         # Menghitung usia
         usia = datetime.today().year - tanggal_ulang_tahun.year
         if (datetime.today().month, datetime.today().day) < (tanggal_ulang_tahun.month, tanggal_ulang_tahun.day):
-            usia -= 1
+            usia = usia
 
         # Mengubah nama_pacar menjadi title case
         nama_pacar_title = nama_pacar.title()
